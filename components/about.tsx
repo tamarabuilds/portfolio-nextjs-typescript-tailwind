@@ -1,10 +1,11 @@
 "use client";
 
 import React from "react";
+import SectionHeading from "./section-heading";
 
 export default function About() {
     return <section className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40">
-        <h2 className="text-3xl font-medium capitalize mb-8">About me</h2>
+        <SectionHeading>About me</SectionHeading>
         <p className="mb-3">
             {`I'm part of the `}
             <span className="font-medium">Intuit Apprenticeship program </span> bringing underrepresented software engineers into tech. This brings me back to my physics and engineering roots since I got a few degrees from schools like Caltech.
@@ -15,7 +16,7 @@ export default function About() {
         </p>
 
         <p>
-            {`Now I'm working alongside fellow 'can-do'ers `} building full stack applications and am <span className="font-medium">loving every minute</span>.
+            {`Now, I'm working alongside fellow 'can-do'ers `} building full stack applications and am <span className="font-medium">loving every minute</span>.
         </p>
     </section>
 }
