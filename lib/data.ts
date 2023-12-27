@@ -67,7 +67,7 @@ export const projectsData = [
   {
     title: "School Database",
     description:
-      "This full-stack application helps school administrators manage users and courses. It features redundant authentication, a helper api-utility function, and user context.",
+      "This full-stack application manage school admins and their courses. It features redundant authentication and context.",
     tags: ["React", "Next.js", "JavaScript", "Express", "SQLite", "Sequelize"],
     imageUrl: schooldbImg,
   },
