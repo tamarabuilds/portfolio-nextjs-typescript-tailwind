@@ -6,6 +6,5 @@ type SectionName = (typeof links)[number]["name"]
 export default function ActiveSectionContextProvider({ children }) {
     const [activeSection, setActiveSection] = useState<SectionName>('Home');
 
-    
     return children
 }
