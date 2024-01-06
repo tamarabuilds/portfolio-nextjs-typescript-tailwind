@@ -7,6 +7,6 @@ export default function ActiveSectionContextProvider() {
     const [activeSection, setActiveSection] = useState<SectionName>('Home');
 
     return (
-        <div></div>
+        <div>ActiveSectionContextProvider</div>
     )
 }
