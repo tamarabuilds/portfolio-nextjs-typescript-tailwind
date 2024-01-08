@@ -1,23 +1,25 @@
+"use client"
+
 import React, { useState, createContext } from "react";
 import { links } from "@/lib/data";
 
 type SectionName = (typeof links)[number]["name"]
 
 type ActiveSectionContextProviderProps = {
-    chilren: React.ReactNode;
+    children: React.ReactNode;
 }
 
-type ActiveSectionContext = {
+type ActiveSectionContextType = {
     activeSection: SectionName;
     setActiveSection: React.Dispatch<React.SetStateAction<SectionName>>
 }
 
 // do not want to use value outside provider component so we use null for detaul context value
-const ActiveSectionContext = createContext<ActiveSectionContextType>(null);
+export const ActiveSectionContext = createContext<ActiveSectionContextType | null>(null);
 
-export default function ActiveSectionContextProvider({ children }: {
-    ActiveSectionContextProviderProps;
-}) {
+export default function ActiveSectionContextProvider({ 
+    children,
+ }: ActiveSectionContextProviderProps) {
     const [activeSection, setActiveSection] = useState<SectionName>('Home');
 
     return <ActiveSectionContext.Provider value={{
