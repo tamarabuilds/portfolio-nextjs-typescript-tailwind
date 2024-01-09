@@ -15,7 +15,7 @@ export default function About() {
             <SectionHeading>About me</SectionHeading>
             <p className="mb-3">
                 {`I'm part of the `}
-                <span className="font-medium">Intuit Apprenticeship program </span> bringing underrepresented software engineers into tech. This brings me back to my physics and engineering roots since I got a few degrees from schools like Caltech.
+                <span className="font-medium">Intuit Apprenticeship program </span> bringing underrepresented software engineers into tech. This brings me back to my physics and engineering roots from when I got a few degrees from schools like Caltech.
             </p>
             
             <p className="mb-3">
