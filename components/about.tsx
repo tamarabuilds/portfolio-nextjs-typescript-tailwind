@@ -23,7 +23,7 @@ export default function About() {
             </p>
 
             <p>
-                {`Now, I'm working alongside fellow 'can-do'ers `} building full stack applications and am <span className="font-medium">loving every minute</span>.
+                {`Now, I'm hands on problem solving and working alongside fellow 'can-do'ers `} building full stack applications and am <span className="font-medium">loving every minute</span>.
             </p>
         </ motion.section>
     )
