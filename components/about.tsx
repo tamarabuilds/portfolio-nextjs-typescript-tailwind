@@ -27,4 +27,4 @@ export default function About() {
             </p>
         </ motion.section>
     )
-}
+};
