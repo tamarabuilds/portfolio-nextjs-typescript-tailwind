@@ -8,7 +8,7 @@ import clsx from "clsx";
 // import { ActiveSectionContext } from "@/context/active-section-context";
 
 export default function Header() {
-    const { activeSection } = useActiveSection
+    const { activeSection } = useActiveSectionCon
     // const context = useContext(ActiveSectionContext);
 
     return <header className="z-[999] relative">
