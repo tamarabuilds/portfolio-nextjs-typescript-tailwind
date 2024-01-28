@@ -11,7 +11,7 @@ export default function About() {
     const { ref, inView } = useInView();
 
     if (inView) {
-        
+        setActiveSection("About");
     }
 
     return (
