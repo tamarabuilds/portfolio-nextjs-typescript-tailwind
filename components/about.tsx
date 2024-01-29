@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useEffect } from "react";
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
@@ -10,9 +10,13 @@ export default function About() {
     const { setActiveSection } = useActiveSectionContext();
     const { ref, inView } = useInView();
 
-    if (inView) {
-        setActiveSection("About");
-    }
+    // useEffect to keep external state of UI position with navigation
+    useEffect(() => {
+        if (inView) {
+            setActiveSection("About");
+        }        
+    }, [inView])
+
 
     return (
         <motion.section className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
