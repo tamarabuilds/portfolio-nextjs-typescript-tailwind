@@ -10,13 +10,14 @@ export default function About() {
     const { setActiveSection } = useActiveSectionContext();
     const { ref, inView } = useInView();
 
+    console.log(inView)
+
     // useEffect to keep external state of UI position with navigation
     useEffect(() => {
         if (inView) {
             setActiveSection("About");
         }        
     }, [inView])
-
 
     return (
         <motion.section className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
