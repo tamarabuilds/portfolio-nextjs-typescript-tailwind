@@ -7,17 +7,15 @@ import { useInView } from "react-intersection-observer";
 import { useActiveSectionContext } from "@/context/active-section-context";
 
 export default function About() {
-    // const { setActiveSection } = useActiveSectionContext();
+    const { setActiveSection } = useActiveSectionContext();
     const { ref, inView } = useInView();
 
-    console.log(inView)
-
-    // // useEffect to keep external state of UI position with navigation
-    // useEffect(() => {
-    //     if (inView) {
-    //         setActiveSection("About");
-    //     }        
-    // }, [inView, setActiveSection])
+    // useEffect to keep external state of UI position with navigation
+    useEffect(() => {
+        if (inView) {
+            setActiveSection("About");
+        }        
+    }, [inView, setActiveSection])
 
     return (
         <motion.section
