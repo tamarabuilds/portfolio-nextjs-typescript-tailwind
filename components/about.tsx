@@ -17,7 +17,6 @@ export default function About() {
         }        
     }, [inView, setActiveSection])
 
-    
     return (
         <motion.section
             ref={ref}
