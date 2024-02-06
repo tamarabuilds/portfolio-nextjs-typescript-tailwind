@@ -4,9 +4,7 @@ import SectionHeading from "./section-heading";
 export default function Skills() {
     return (
         <section>
-            <SectionHeading>
-                
-            </SectionHeading>
+            <SectionHeading> My Skills</SectionHeading>
         </section>
     )
 }
