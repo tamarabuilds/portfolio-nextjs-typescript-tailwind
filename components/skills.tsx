@@ -5,6 +5,9 @@ export default function Skills() {
     return (
         <section>
             <SectionHeading> My Skills</SectionHeading>
+            <ul>
+                
+            </ul>
         </section>
     )
 }
