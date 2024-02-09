@@ -6,7 +6,9 @@ export default function Skills() {
         <section>
             <SectionHeading> My Skills</SectionHeading>
             <ul>
-                
+                {
+                    
+                }
             </ul>
         </section>
     )
