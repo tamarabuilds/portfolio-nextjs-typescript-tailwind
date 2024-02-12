@@ -8,7 +8,9 @@ export default function Skills() {
             <SectionHeading> My Skills</SectionHeading>
             <ul>
                 {
-                    skillsData.map((skill, index) ==> )
+                    skillsData.map((skill, index) ==> (
+                        
+                    ))
                 }
             </ul>
         </section>
