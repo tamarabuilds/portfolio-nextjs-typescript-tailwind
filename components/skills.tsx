@@ -9,7 +9,7 @@ export default function Skills() {
             <ul>
                 {
                     skillsData.map((skill, index) ==> (
-                        <li key={index}></li>
+                        <li key={index}>{skill}</li>
                     ))
                 }
             </ul>
