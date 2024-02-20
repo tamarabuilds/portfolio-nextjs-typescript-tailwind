@@ -4,7 +4,7 @@ import { skillsData } from "@/lib/data";
 
 export default function Skills() {
     return (
-        <section>
+        <section className="mb-28 max-w-[53rem] scroll-mt 28">
             <SectionHeading> My Skills</SectionHeading>
             <ul>
                 {skillsData.map((skill, index) => (
