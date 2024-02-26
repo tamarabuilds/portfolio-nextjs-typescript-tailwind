@@ -38,14 +38,6 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "New York, NY",
-    description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
     title: "Front-End Developer",
     location: "Orlando, FL",
     description:
@@ -60,6 +52,54 @@ export const experiencesData = [
       "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
     date: "2021 - present",
+  },
+  {
+    title: "Graduated Caltech",
+    location: "Pasadena, CA",
+    description:
+      "I graduated with and Engineering & Applied Sciende degree with a focus on Computation and Neural Systems.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2004",
+  },
+  {
+    title: "IT Lead",
+    location: "Milpitas, CA",
+    description:
+      "After completing a competitive IT Leadership Development Program with Johnson & Johnson, I worked up the ranks being a go-to person for the enterprise system, earning top performance ratings.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2004 - 2010",
+  },
+  {
+    title: "Project Manager",
+    location: "Redwood City, CA",
+    description:
+      "Managed 10+ global projects impacting millions of utility customers. Recevied feedback of exceeding expectations and having high customer satisfaction.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2010 - 2012",
+  },
+  {
+    title: "Graduated UC Berkeley Haas School of Business",
+    location: "Berkeley, CA",
+    description:
+      "Wanting to understand the full lifecyle of business, I got my MBA and leveled up more skills.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2015",
+  },
+  {
+    title: "Sr. Product & Program Manager",
+    location: "Redwood City, CA",
+    description:
+      "Senior management team member. Provided critical contributions to a new product that increased revenue by 20%. Promoted from an individual contributor to people manager, then head of customer and product in two years.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2015 - 2018",
+  },
+  {
+    title: "Software Engineering Apprentice",
+    location: "Mountain View, CA",
+    description:
+      "I'm now a frontend developer working at Intuit on the external developer portal. My stack includes React, TypeScript, and GraphQL. I also earned a Fullstack JavaScript Techdegree a month ahead of schedule.",
+    icon: React.createElement(FaReact),
+    date: "2023 - present",
   },
 ] as const;
 
