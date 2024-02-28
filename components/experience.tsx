@@ -8,13 +8,13 @@ export default function Experience() {
     return <section id='experience'>
         <SectionHeading>My experience</SectionHeading>
         <VerticalTimeline>
-            <VerticalTimelineElement>
-                {
-                    experiencesData.map((experience, index) => {
-                        <VerticalTimelineElement></VerticalTimelineElement>
-                    })
-                }
-            </VerticalTimelineElement>
+            {
+                experiencesData.map((experience, index) => {
+                    <VerticalTimelineElement>
+                        
+                    </VerticalTimelineElement>
+                })
+            }
         </VerticalTimeline>
     </section>
 }
