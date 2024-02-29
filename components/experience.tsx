@@ -8,12 +8,13 @@ export default function Experience() {
     return <section id='experience'>
         <SectionHeading>My experience</SectionHeading>
         <VerticalTimeline>
-            {
-                experiencesData.map((experience, index) => {
+            {experiencesData.map((item, index) => (
+                <React.Fragment key={index}>
                     <VerticalTimelineElement>
-                        
+
                     </VerticalTimelineElement>
-                })
+                </React.Fragment>
+            ))
             }
         </VerticalTimeline>
     </section>
