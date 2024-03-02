@@ -13,6 +13,7 @@ export default function Experience() {
                     <VerticalTimelineElement>
                         <h3>{item.title}</h3>
                         <p>{item.location}</p>
+                        <p>{item.description}</p>
                     </VerticalTimelineElement>
                 </React.Fragment>
             ))
