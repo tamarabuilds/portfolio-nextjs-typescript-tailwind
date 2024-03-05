@@ -41,4 +41,4 @@ export default function Experience() {
             </VerticalTimeline>
         </section>
     );
-}
+};
